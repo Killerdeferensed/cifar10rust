@@ -1,0 +1,11 @@
+[package]
+name = "cifar10rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+burn = { version = "0.15.0", features = ["train", "wgpu", "vision"] }
+cifar_10_loader = "0.2.0"
+reqwest = "0.12.9"
